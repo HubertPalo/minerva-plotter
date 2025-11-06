@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minerva-plotter"
+version = "0.0.1"
+description = "A Python utility for reducing and visualizing DAGHAR-like datasets through t-SNE plots."
+authors = [{name = "Darlinne Hubert Palo Soto"}]
+requires-python = ">=3.6"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scikit-learn",
+]
+
+[tool.setuptools]
+packages = ["minerva_plotter"]
